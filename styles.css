@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #aba8c5;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    }
+    .container {
+        position: relative;
+        background-color: #fff;
+        padding:50px;
+        padding-top: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 500px;
+        
+        text-align: center;
+    }
+    h1 {
+    margin-bottom: 20px;
+    color: #d43030;
+}
+
+/* Input Styling */
+#input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.del{
+    width:50px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fading-out {
+    animation: fadeOut 0.5s ease-out;
+    opacity: 0;
+}
